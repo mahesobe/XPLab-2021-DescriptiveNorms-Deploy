@@ -22,6 +22,7 @@ $("document").ready(function() {
             instructions,
             moral_dilemma_view,
             rating_choice_view,
+            understanding_check_instructions,
             understanding_check,
             identification_measure,
             thanks,
@@ -33,8 +34,8 @@ $("document").ready(function() {
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "directLink",
-            //deployMethod: "debug",
+            //deployMethod: "directLink",
+            deployMethod: "debug",
             contact_email: "mbensien@uos.de",
             prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
