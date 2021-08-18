@@ -971,11 +971,11 @@ const view = {
       pro_name = "pro-drug legalization enthusiasts.";
       anti_name = "anti-drug legalization advocates";
     } else if (issueFlag === "Colin Kaepernick kneeling during the national anthem") {
-      pro_name = "pro Colin Kaepernick enthusiasts.";
-      anti_name = "anti Colin Kaepernick advocates";
+      pro_name = "anti Colin Kaepernick enthusiasts."; // switched bc statement said he was wrong to do it
+      anti_name = "pro Colin Kaepernick advocates";    // so agreement -> anti 
     } else if (issueFlag === "Buying and wearing fur") {
-      pro_name = "pro-fur enthusiasts.";
-      anti_name = "anti-fur advocates";
+      pro_name = "pro-animal rights enthusiasts.";
+      anti_name = "anti-animal rights advocates";
     } else if (issueFlag === "Taxing religious organizations") {
       pro_name = "pro-taxing of religious organizations enthusiasts.";
       anti_name = "anti-taxing of religious organizations advocates";
